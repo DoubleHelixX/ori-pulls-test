@@ -1,10 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
+import DatabaseCard from "./Components/DatabaseCard/DatabaseCard";
+import ForumCard from "./Components/ForumCard/ForumCard";
+import Navigation from "./Components/Navigation/Navigation";
+import ProjectsCard from "./Components/ProjectsCard/ProjectsCard";
 
 function App() {
   return (
     <div>
-      <h1>Test</h1>
+      <Navigation />
+      <ProjectsCard />
+      <DatabaseCard />
+      <ForumCard />
     </div>
   );
 }
