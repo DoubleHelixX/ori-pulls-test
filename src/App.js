@@ -7,10 +7,10 @@ import ProjectsCard from "./Components/ProjectsCard/ProjectsCard";
 function App() {
   return (
     <div>
-      <Navigation />
-      <ProjectsCard />
-      <DatabaseCard />
-      <ForumCard />
+      <Navigation className="navigation" />
+      <ProjectsCard className="projects" />
+      <DatabaseCard className="database" />
+      <ForumCard className="forum" />
     </div>
   );
 }

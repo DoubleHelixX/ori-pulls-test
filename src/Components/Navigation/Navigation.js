@@ -2,9 +2,9 @@ import React from "react";
 
 function Navigation(props) {
   return (
-    <div>
-      <h1>Navigation</h1>
-    </div>
+    <>
+      <h1>PULLS</h1>
+    </>
   );
 }
 
