@@ -7,8 +7,7 @@ function ForumCard(props) {
   return (
     <>
       <div className="forumPosition">
-        <h1>Forum </h1>
-        <h2>+</h2>
+        <h1 className="forumTitle">Forum +</h1>
 
         <div className="forumCard">
           Hovha(NY): Looking for a brown leather belt for 7/15/2022 Vogue Shoot

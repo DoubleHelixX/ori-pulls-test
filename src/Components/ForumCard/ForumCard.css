@@ -1,3 +1,10 @@
+.buttonGroupForum {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 10px;
+  flex-wrap: wrap;
+}
+
 .accessoriesButton,
 .needItemButton {
   width: 122px;

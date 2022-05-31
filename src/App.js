@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <Navigation className="navigation" />
+      <div className="dashBoardTitle">Dashboard</div>
       <div className="boxes">
-        <h1 className="dashBoardTitle">Dashboard</h1>
         <ProjectsCard className="projects" />
         <DatabaseCard className="database" />
         <ForumCard className="forum" />

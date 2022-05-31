@@ -1,5 +1,7 @@
 import React from "react";
 import { Dropdown } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPen } from "@fortawesome/fontawesome-svg-core";
 import "./DatabaseCard.css";
 
 function DatabaseCard(props) {

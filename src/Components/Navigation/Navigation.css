@@ -5,14 +5,14 @@
   text-decoration: none;
   color: black;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .brand {
-  font-weight: 800;
+  font-weight: 900;
   margin: 20px;
   display: flex;
   color: black;
-  align-self: center;
   font-style: italic;
   letter-spacing: 5px;
   flex-direction: row;
