@@ -4,3 +4,20 @@
   height: 398px;
   background-color: #f4eaea;
 }
+
+.buttonGroup {
+  margin-top: 50px;
+}
+
+.viewAll,
+.newProject {
+  border-radius: 10px;
+}
+
+.viewAll {
+  margin-right: 20px;
+}
+
+.newProject {
+  margin-left: 20px;
+}

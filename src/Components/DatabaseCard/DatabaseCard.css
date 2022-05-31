@@ -3,7 +3,13 @@
   padding: 20px;
   width: 617px;
   height: 398px;
+  flex-wrap: wrap;
   background-color: #f4eaea;
+}
+
+.seeMoreButton {
+  margin-top: 50px;
+  border-radius: 10px;
 }
 
 #dropdown-basic {
@@ -12,4 +18,5 @@
   height: 50px;
   justify-content: space-between;
   padding: 20px;
+  margin-bottom: 5px;
 }

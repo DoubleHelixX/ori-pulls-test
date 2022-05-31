@@ -6,13 +6,15 @@ import ProjectsCard from "./Components/ProjectsCard/ProjectsCard";
 
 function App() {
   return (
-    <div className="boxes">
+    <>
       <Navigation className="navigation" />
-      <h1 className="dashBoardTitle">Dashboard</h1>
-      <ProjectsCard className="projects" />
-      <DatabaseCard className="database" />
-      <ForumCard className="forum" />
-    </div>
+      <div className="boxes">
+        <h1 className="dashBoardTitle">Dashboard</h1>
+        <ProjectsCard className="projects" />
+        <DatabaseCard className="database" />
+        <ForumCard className="forum" />
+      </div>
+    </>
   );
 }
 

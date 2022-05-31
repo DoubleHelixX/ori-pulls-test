@@ -5,19 +5,23 @@ import "./ForumCard.css";
 
 function ForumCard(props) {
   return (
-    <div className="forumPosition">
-      <h1>Forum </h1>
-      <h2>+</h2>
+    <>
+      <div className="forumPosition">
+        <h1>Forum </h1>
+        <h2>+</h2>
 
-      <div className="forumCard">
-        Hovha(NY): Looking for a brown leather belt for 7/15/2022 Vogue Shoot
-        <div>Lars C. replied 30 min ago</div>
-        <FontAwesomeIcon icon={faComments} />
-        <div className="messageAmount">1</div>
-        <button className="accessoriesButton">ACCESSORIES</button>
-        <button className="needItemButton">NEED ITEM</button>
+        <div className="forumCard">
+          Hovha(NY): Looking for a brown leather belt for 7/15/2022 Vogue Shoot
+          <div>Lars C. replied 30 min ago</div>
+          <FontAwesomeIcon icon={faComments} />
+          <div className="messageAmount">1</div>
+          <div className="buttonGroupForum">
+            <button className="accessoriesButton">ACCESSORIES</button>
+            <button className="needItemButton">NEED ITEM</button>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

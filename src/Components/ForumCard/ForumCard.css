@@ -1,3 +1,15 @@
-forumPosition {
-  display: flex;
+.accessoriesButton,
+.needItemButton {
+  width: 122px;
+  height: 20px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.accessoriesButton {
+  margin-right: 10px;
+}
+
+.needItemButton {
+  margin-left: 10px;
 }

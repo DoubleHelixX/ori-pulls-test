@@ -2,11 +2,18 @@
   display: grid;
   grid-template-rows: 0.2fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
   grid-template-areas:
     "nav nav nav nav"
     "projects projects database database"
     "footer footer footer footer";
-  grid-gap: 10rem;
+  grid-gap: 150px;
+}
+
+.dashBoardTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects {
@@ -24,16 +31,21 @@
   padding: auto;
   align-items: center;
   grid-row: 2 / 4;
-  grid-column: 3 / 2;
+  grid-column: 3 / 3;
   align-items: center;
 }
 
 .forumPosition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 10px;
   grid-area: footer;
 }
 
 .forumCard {
+  display: flex;
+  flex-direction: column;
   width: 893px;
   height: 121px;
   background-color: #f4eaea;
@@ -42,7 +54,12 @@
 
 .dashBoardTitle {
   display: flex;
-  grid-row: 2 / 2;
-  grid-column: 1 / 2;
-  align-items: center;
+}
+
+button {
+  width: 147px;
+  height: 44px;
+  background-color: #84cee5;
+  border: none;
+  font-weight: 600;
 }
