@@ -5,7 +5,7 @@ import "./ForumCard.css";
 
 function ForumCard(props) {
   return (
-    <div>
+    <div className="forumPosition">
       <h1>Forum </h1>
       <h2>+</h2>
 

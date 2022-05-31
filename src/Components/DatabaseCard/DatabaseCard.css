@@ -1,6 +1,15 @@
 .database {
+  display: flex;
   padding: 20px;
   width: 617px;
   height: 398px;
   background-color: #f4eaea;
+}
+
+#dropdown-basic {
+  display: flex;
+  width: 500px;
+  height: 50px;
+  justify-content: space-between;
+  padding: 20px;
 }

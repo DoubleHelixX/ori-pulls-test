@@ -1,6 +1,3 @@
-.forumCard {
-  width: 893px;
-  height: 121px;
-  background-color: #f4eaea;
-  font-weight: 800;
+forumPosition {
+  display: flex;
 }

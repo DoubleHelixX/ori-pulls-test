@@ -54,7 +54,7 @@ function DatabaseCard(props) {
           <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <button>See More</button>
+      <button className="seeMoreButton">See More</button>
     </div>
   );
 }

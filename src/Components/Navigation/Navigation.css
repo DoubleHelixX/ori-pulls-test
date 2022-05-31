@@ -1,17 +1,19 @@
 .nav {
-  display: flex;
+  padding-right: 30px;
   flex-direction: row;
+  align-items: flex-end;
   text-decoration: none;
   color: black;
   cursor: pointer;
 }
 
-.title {
+.brand {
   font-weight: 800;
   margin: 20px;
   display: flex;
+  color: black;
   align-self: center;
   font-style: italic;
   letter-spacing: 5px;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
