@@ -11,9 +11,10 @@ function ForumCard(props) {
 
         <div className="forumCard">
           Hovha(NY): Looking for a brown leather belt for 7/15/2022 Vogue Shoot
-          <div>Lars C. replied 30 min ago</div>
-          <FontAwesomeIcon icon={faComments} />
           <div className="messageAmount">1</div>
+          <div>
+            Lars C. replied 30 min ago <FontAwesomeIcon icon={faComments} />
+          </div>
           <div className="buttonGroupForum">
             <button className="accessoriesButton">ACCESSORIES</button>
             <button className="needItemButton">NEED ITEM</button>
