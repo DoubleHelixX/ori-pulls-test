@@ -1,14 +1,16 @@
 import React from "react";
 import { Dropdown } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPen } from "@fortawesome/fontawesome-svg-core";
+import { faPencil } from "@fortawesome/free-solid-svg-icons";
 import "./DatabaseCard.css";
 
 function DatabaseCard(props) {
   return (
     <>
       <div className="database">
-        <h1>Database</h1>
+        <h1>
+          Database <FontAwesomeIcon icon={faPencil} />
+        </h1>
         <Dropdown>
           <Dropdown.Toggle
             id="dropdown-basic"
