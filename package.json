@@ -2,7 +2,7 @@
   "name": "pulls-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DoubleHelixX.github.io",
+  "homepage": "https://doublehelixx.github.io/ori-pulls-test/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
